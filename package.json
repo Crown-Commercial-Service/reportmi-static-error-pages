@@ -1,0 +1,22 @@
+{
+  "name": "reportmi-static-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "govuk-frontend": "^1.2.0",
+    "handlebars": "^4.0.11",
+    "http-server": "^0.11.1",
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-inline-css": "^1.0.3",
+    "metalsmith-layouts": "^2.1.0",
+    "metalsmith-markdown": "^0.2.2",
+    "metalsmith-sass": "^1.5.1"
+  },
+  "scripts": {
+    "start": "http-server ./build",
+    "build": "metalsmith"
+  }
+}

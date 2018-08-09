@@ -1,0 +1,16 @@
+{
+  "source": "src",
+  "destination": "build",
+  "plugins": {
+    "metalsmith-markdown": true,
+    "metalsmith-layouts": true,
+    "metalsmith-assets": {
+      "source": "node_modules/govuk-frontend/assets/images",
+      "destination": "./assets/images"
+    },
+    "metalsmith-sass": {
+      "outputStyle": "compressed"
+    },
+    "metalsmith-inline-css": true
+  }
+}

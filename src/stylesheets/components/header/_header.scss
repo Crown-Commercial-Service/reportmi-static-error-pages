@@ -1,0 +1,28 @@
+@import "../../settings/all";
+@import "node_modules/govuk-frontend/helpers/all";
+
+$govuk-header-background: govuk-colour("primary");
+$govuk-header-border-width: 0;
+
+@import "node_modules/govuk-frontend/components/header/header";
+
+.govuk-header {
+  background-color: $govuk-header-background;
+  border-bottom: none;
+}
+.govuk-header__container {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+
+.govuk-header__navigation-item--active {
+  a {
+    &:link,
+    &:hover,
+    &:visited {
+      color: govuk-colour("white");
+      text-decoration: underline;
+    }
+  }
+}
