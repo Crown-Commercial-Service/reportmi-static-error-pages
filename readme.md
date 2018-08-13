@@ -14,7 +14,7 @@ Generates:
 
 ## Use
 - Edit the src/*.md files to alter the content
-- Run `npm build` to create the files and assets.
+- Run `npm run build` to create the files and assets.
 - Copy the html files and assets directory from the build directory to the Rails app public directory, the stylesheets directory is not required as css is inlined by the build step.
 
 ## Developing
